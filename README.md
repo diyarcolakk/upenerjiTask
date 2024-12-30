@@ -4,13 +4,13 @@
 2. Proje klasörünün içine girin.
 3. İlgili paketleri yükleyin.
 
-bash
+```bash
 1- git clone https://github.com/diyarcolakk/upenerjiTaskk.git
 2- cd upenerjiTaskk
 3- npm install
-
-Firebase Configuration
-bash
+```
+# Firebase Configuration
+```bash
 
 1.Firebase Console'a gidin.
 2.Yeni bir Firebase projesi oluşturun veya mevcut birini kullanın.
@@ -18,12 +18,12 @@ bash
 4.Firebase Console'da, Project settings (dişli simgesi) bölümüne gidin ve Your apps kısmına kadar aşağı kaydırın.
 5.Add app ikonuna (</>) tıklayın ve Web seçeneğini belirleyin.
 6.Uygulamayı kaydedin ve bir Firebase yapılandırma nesnesi alacaksınız. Bu yapılandırma nesnesini kopyalayın.
-
+```
 # Configuration File
 
 1. Proje dizininde, config.js adında yeni bir dosya oluşturun.
 2. Firebase yapılandırma nesnesini config.js dosyasına aşağıdaki gibi yapıştırın:
-   bash
+  ```bash
 
 // Config.js
 const firebaseConfig = {
@@ -34,7 +34,7 @@ storageBucket: "YOUR_STORAGE_BUCKET",
 messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
 appId: "YOUR_APP_ID",
 };
-
+```
 # Start Project
 
 Projeyi başlatmak için ;
