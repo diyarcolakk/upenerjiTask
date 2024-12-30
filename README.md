@@ -42,3 +42,30 @@ Projeyi başlatmak için ;
 ```bash
 npm start
 ```
+
+
+# Gereksinimler
+
+```bash
+1. Kullanıcı Kimlik Doğrulaması (Authentication)
+
+Firebase Authentication kullanarak, kullanıcıların e-posta ve şifreyle giriş yapmalarını sağladım. Firebase Authentication projeye dahil edilerek, kullanıcı doğrulama işlemleri kolaylıkla entegre edildi. Kullanıcı kaydı, giriş işlemleri için gerekli fonksiyonlar oluşturuldu ve ilgili UI bileşenleri React bileşenleriyle tasarlandı.
+
+2. State Yönetimi (Redux Toolkit)
+
+Redux Toolkit kullanarak , statelerin yönetimi ve işlemlerin yapılabilmesi sağlandı.Kredi kartı veya Kredi ile ödeme yapıldığında bakiye artışı sağlandı.Kupon oluşturma özelliği eklendi.
+
+3. Yönlendirme (React Router) 
+
+React Router kullanarak , yeni tabloların başka sayfalara yönlendirelerek ekranda render edilmesi sağlandı.
+
+4-Tasarım (Tailwind)
+
+Tailwind.css kullanılarak bazı hazır componentlerin ve tasarımların kullanılması ile uygulama yapısının responsive olması sağlandı.
+
+
+5- Veri Depolama (Firebase - LocalStorage)
+
+Herhangi bir veri depolama yöntemi kullanılmadı. İstenilen analiz dökümanında belli bir şekilde verinin depolanması gerektiği söylenmedi. Bir initial state içerisinde uygun olan ilk mock değerler tutuldu ve üzerlerinde işlem yapıldı. Client refreshlenmediği sürece bu verilerin kaybolması oluşturulan projede mümkün değil.
+
+```
