@@ -24,7 +24,7 @@ const CouponTable = () => {
           </thead>
           <tbody>
             {selector.map((item) => {
-              // Check if there are coupons in the item
+              // Kupon var mı kontrol et ve varsa kuponları listele
               if (item.coupons && item.coupons.length > 0) {
                 return item.coupons.map((coupon) => (
                   <tr key={coupon.couponCode} className="border-t">
@@ -39,7 +39,7 @@ const CouponTable = () => {
                   </tr>
                 ));
               } else {
-                // If no coupons exist, render a row with empty strings
+                // Kupon yok ise boş bir satır döndür
                 return (
                   <tr key={item.id} className="border-t">
                     <td className="px-4 py-2"></td>

@@ -12,7 +12,7 @@ const CreateCoupon = ({ id, onClose }) => {
 
     const result = selector.filter((balance) => balance.id === id);
     if (result && amount < result[0].amount) {
-      // Kupon oluşturuluyor
+      // Kupon oluşturulduğunda,  bitiş tarihi oluşturma tarihinden 7 gün sonra olmalıdır.
       const couponCreateDate = Date.now();
       const oneWeekInMillis = 7 * 24 * 60 * 60 * 1000;
       const couponFinishedAt = couponCreateDate + oneWeekInMillis;

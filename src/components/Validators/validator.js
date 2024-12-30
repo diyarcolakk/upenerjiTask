@@ -25,7 +25,6 @@ const loanModalCheck = (tcNo) => {
     return true;
   };
 
-  // console.log(tcNo);
   if (validateTCKimlik(tcNo)) {
     return true;
   } else {
