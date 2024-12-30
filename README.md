@@ -49,9 +49,10 @@ npm start
 ```bash
 1. Kullanıcı Kimlik Doğrulaması (Authentication)
 
-Firebase Authentication kullanarak, kullanıcıların e-posta ve şifreyle giriş yapmalarını sağladım. Firebase Authentication
-projeye dahil edilerek,kullanıcı doğrulama işlemleri kolaylıkla entegre edildi. Kullanıcı kaydı, giriş işlemleri için
-gerekli fonksiyonlar oluşturuldu ve ilgili UI bileşenleri React bileşenleriyle tasarlandı.
+Firebase Authentication kullanarak, kullanıcıların e-posta ve şifreyle giriş yapmalarını sağladım.
+Firebase Authenticationprojeye dahil edilerek,kullanıcı doğrulama işlemleri kolaylıkla entegre edildi.
+Kullanıcı kaydı, giriş işlemleri içingerekli fonksiyonlar oluşturuldu ve ilgili UI bileşenleri
+React bileşenleriyle tasarlandı.
 
 2. State Yönetimi (Redux Toolkit)
 
@@ -70,9 +71,9 @@ kullanılması ile uygulama yapısının responsive olması sağlandı.
 
 5- Veri Depolama (Firebase - LocalStorage)
 
-Herhangi bir veri depolama yöntemi kullanılmadı. İstenilen analiz dökümanında belli bir
-şekilde verinin depolanması gerektiği söylenmedi. Bir initial state içerisinde uygun olan
-ilk mock değerler tutuldu ve üzerlerinde işlem yapıldı. Client refreshlenmediği
-sürece bu verilerin kaybolması oluşturulan projede mümkün değil.
+Herhangi bir veri depolama yöntemi kullanılmadı. İstenilen analiz dökümanında verinin hangi 
+şekilde depolanması gerektiği söylenmedi.(Başka bir kullanıcı girdiğinde gibi)
+Bir initial state içerisinde uygun olan ilk mock değerler tutuldu ve üzerlerinde işlem yapıldı.
+Client refreshlenmediğisürece bu verilerin kaybolması oluşturulan projede mümkün değil.
 
 ```
