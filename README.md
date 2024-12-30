@@ -39,6 +39,6 @@ appId: "YOUR_APP_ID",
 
 Projeyi başlatmak için ;
 
-bash
-
+```bash
 npm start
+```
